@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*---------Header Logo--------*/
+section{
+    background-color: #4f0000;
+
+}
+.big_div{
+    width:80%;
+    margin: auto;
+    background-color: #330000;
+}
+.logo>img{
+    padding:1% 0;
+     width:100%;
+    height: auto;
+ }
+/*-------Nav Bar--------*/
+nav{
+    line-height: 0;
+    padding:0 40px;
+    background-image: url("images/nav_bg.jpg");
+}
+.bar{
+    text-align: center;
+    border-collapse: collapse;
+    width:100%;
+}
+.bar a {
+    text-decoration: none;
+    color: white;
+}
+.bar a:hover{
+        color:red;
+}
+/*----------Welcome Casino----------*/
+.room{
+    padding:1%;
+    background-image: url("images/pokr_bg.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-wrap:wrap;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+}
+.room>div{
+    padding:12px;
+    width: 22%;
+    background-image: url("images/rom_bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.room_a{
+    text-align: right;
+}
+.room_a>a{
+    color:black;
+}
+.room a:hover{
+    text-decoration: none;
+    color:white;
+}
+.room p{
+    padding:15px 0;
+}
+/*------Welcome Casino-------*/
+.big_welcome{
+    padding:15px;
+}
+.welcome{
+    display: flex;
+}
+.welcome>div>img{
+    padding:7px;
+    width:100%;
+    height:auto;
+    border-radius: 50%;
+}
+.welcome>div>a{
+    display: inline-block;
+    padding:10px;
+    color:yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+.welcome>div>a:hover{
+    color:white;
+}
+.welcom_text{
+    display: flex;
+}
+.welcom_text>div:last-child{
+    padding-left:15px;
+    color:white;
+}
+.welcom_text>div:last-child>a:last-child{
+    padding-top:20px;
+}
+/*-----Top Casino-----*/
+.top{
+    display: flex;
+}
+.top1{
+    padding:0 20px;
+    width:80%;
+}
+.top1>div>table{
+  text-align: center;
+    width:100%;
+    border-collapse:collapse;
+}
+.casino_table td,th{
+
+    padding:3px;
+ }
+.casino_table tr td:last-child>a{
+    text-decoration: none;
+    color:white;
+}
+.casino_table tr td:last-child>a:hover{
+    text-decoration: underline;
+}
+ .casino_table td{
+     color:white;
+ }
+ .casino_table tr:nth-child(odd){
+     background-image: url("images/cntr_bg2.jpg");
+ }
+.casino_table tr:nth-child(even){
+    background-image: url("images/cntr_bg3.jpg");
+}
+.casino_table tr:first-child{
+    background-image: url("images/cntr_bg1.jpg");
+}
+
+.play{
+    background-image: url("images/play_now.jpg");
+    width:100%;
+    text-decoration: none;
+    padding:3px;
+    color:black;
+}
+.play:hover{
+    text-decoration: underline;
+}
+.top2>div .top2_p{
+    border-radius: 50px 0 0 50px;
+    padding:13px;
+    background-image: url("images/casino_rvws.jpg");
+    background-repeat: no-repeat;
+    line-height: 12px;
+}
+.top2_p>p{
+ padding-left:35px;
+    color:yellow;
+}
+.top2>div>div>ul {
+    text-align: center;
+    background-color:black;
+    padding: 20px;
+    list-style: none;
+}
+.top2>div>div>ul>li{
+    line-height: 23px;
+    color:white;
+}
+.top2{
+    width:19%;
+}
+.top2>div{
+    width:100%;
+}
+.top2_link{
+    padding-left: 5%;
+    width: 85%;
+    padding-bottom: 10%;
+}
+.top2_link>ul>li a{
+    text-decoration: none;
+    color:white;
+}
+.top2_link>ul>li a:hover{
+    color:red;
+}
+.casino_name{
+    background-color: #4f0000;
+    margin-top:30px;
+    padding:20px 30px;
+}
+.casino_name>h2{
+    color:yellow;
+}
+.casino_name>p{
+    color:white;
+}
+.pic{
+    float:left;
+    padding-right:10px;
+}
+.clear{
+    clear:both;
+}
+.bult{
+    border-radius: 50px;
+}
+.casino_linkname{
+    display: flex;
+}
+/*----Footer------*/
+footer{
+    color:white;
+    text-align: center;
+    padding:20px;
+}
+footer>span{
+    padding-right:5px;
+}
+footer a{
+    color:yellow;
+}
+.foot{
+    margin-top:30px;
+}

@@ -1,0 +1,177 @@
+@media screen and (max-width:1600px){
+    .top2{
+        width: 22%;
+    }
+}
+@media screen and (max-width:1400px){
+    .top2{
+        width: 30%;
+    }
+    .top1{
+        width:70%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .top2{
+        width: 100%;
+    }
+    .top2>div{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+        justify-content: center;
+    }
+    .top1{
+       width:100%;
+    }
+    .top2_link{
+        width:34%;
+        margin:1%;
+        padding-bottom: 0;
+    }
+    .room>div{
+        margin:10px;
+        width: 45%;
+    }
+    .top{
+        display: block;
+    }
+}
+@media screen and (max-width:1024px) {
+    .room > div {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .top2_link {
+        width: 33%;
+    }
+}
+@media screen and (max-width:992px) {
+    .room > div {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .top2_link {
+        width: 37%;
+    }
+}
+@media screen and (max-width:768px) {
+    .room > div {
+        background-size: cover;
+        width: 98%;
+        margin: 1%;
+    }
+    .welcome{
+        display: block;
+    }
+    .welcom_text {
+        display: block;
+    }
+
+    .welcom_text > div:last-child {
+        padding-left: 0;
+    }
+
+    .top2_link {
+        width: 43%;
+        margin: 1%;
+        padding-left: 0;
+    }
+
+    .bar {
+        display: none;
+    }
+
+    .welcom_text {
+        text-align: center;
+    }
+
+    .top2_link {
+        width: 98%;
+        margin: 1%;
+        padding-left: 0;
+    }
+
+    .top2_link > ul > li a {
+        font-size: 35px;
+    }
+
+    .welcom_text > div > img {
+        width: 100%;
+    }
+
+    .welcome > div > a {
+        font-size: 38px;
+    }
+    .pic{
+        float:none;
+        width:100%;
+    }
+    .casino_name>p{
+        font-size: 30px;
+    }
+    .casino_name>h2{
+        font-size: 35px;
+    }
+
+    .welcome > div > img {
+        display: none;
+    }
+    .top2>div>div>ul>li{
+        line-height: 45px;
+    }
+    .top2>div .top2_p{
+        background-size: 100%;
+    }
+    .room p{
+        font-size: 30px;
+    }
+    .room>div h3{
+        font-size: 30px;
+    }
+    .room>div a{
+        font-size: 30px;
+    }
+    .top2>div .top2_p{
+line-height: 43px;
+    }
+    .top2_p>p{
+        font-size: 37px;
+        padding-left:54px;
+    }
+    .welcom_text>div p{
+        font-size: 30px;
+    }
+    footer a,span{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bar{
+        display: none;
+    }
+    .welcom_text{
+        text-align: center;
+    }
+    .top2_link {
+        width: 98%;
+        margin:1%;
+        padding-left:0;
+    }
+    .welcome > div > img {
+        width: 70px;
+    }
+    footer a,span{
+        font-size: 25px;
+    }
+    .top2_link > ul > li a{
+        font-size: 26px;
+    }
+    .top2>div>div>ul>li{
+        line-height: 45px;
+    }
+}
+
